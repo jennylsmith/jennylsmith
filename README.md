@@ -1,6 +1,6 @@
 
 <p align="center">
-Computational biologist applying methods in data science and data engineering to biomedical and translational research.
+Computational biologist applying methods in data science biomedical and translational research.
 </p>
 
 <p align="center">
