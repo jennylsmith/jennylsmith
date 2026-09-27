@@ -1,10 +1,10 @@
 
 <p align="center">
-Computational biologist applying methods in data science biomedical and translational research.
+Computational biologist applying methods in data science biomedical and translational research at Ospedale Pediatrico Bambino Gesù.
 </p>
 
 <p align="center">
-Expertise of over 8 years in genomics and next generation sequencing (NGS) data.
+Expertise of over 9 years in genomics and next generation sequencing (NGS) data.
 </p>
 
 <br>
@@ -19,6 +19,46 @@ Expertise of over 8 years in genomics and next generation sequencing (NGS) data.
 <p align="center"> Bambino Gesu, Seattle Children's, Fred Hutch </p>
 
 <br>
+<br>
+
+---
+
+#### Associated Code Repositories
+
+Most of my work lives in two organization accounts:
+
+**[Meshinchi-Lab](https://github.com/Meshinchi-Lab)** — Pediatric cancer genomics at Ospedale Pediatrico Bambino Gesù and Fred Hutch: pediatric AML, T-ALL, and rhabdomyosarcoma. Bulk and single-cell RNA-seq, gene fusion detection, Oxford Nanopore long-read WGS and structural variant calling, and immunotherapy target discovery. Active project repositories are private; the pipelines, packages, and templates below are public.
+
+**[RSC-RP](https://github.com/RSC-RP)** — Research Scientific Computing at Seattle Children's: shared Nextflow pipelines, HPC and cloud infrastructure, and analysis support spanning pediatric leukemia (ALL), developmental biology in iPSC-derived motor neurons, and infectious disease (*Plasmodium falciparum*). Code repositories for internal SCRI analytical work were hosted on a private organizational Bitbucket. 
+
+
+#### Selected Work
+
+**Pipelines and workflows** — Nextflow and WDL, on Slurm HPC and AWS
+
+* [bulk_rnaseq_fusion_nf](https://github.com/Meshinchi-Lab/bulk_rnaseq_fusion_nf) — Gene fusion detection with STAR-Fusion, FusionInspector, and CICERO
+* [rnaseq_count_nf](https://github.com/Meshinchi-Lab/rnaseq_count_nf) — Bulk RNA-seq alignment and quantification
+* [cutandrun_nf](https://github.com/RSC-RP/cutandrun_nf) — Cut&Run alignment, QC, and peak calling
+* [batch_pipeline](https://github.com/Meshinchi-Lab/batch_pipeline) — Multi-step array jobs on AWS Batch
+* [Isoseq3_workflow](https://github.com/jennylsmith/Isoseq3_workflow) — PacBio long-read Iso-Seq transcript characterization
+
+**R packages**
+
+* [DeGSEA](https://github.com/Meshinchi-Lab/DeGSEA) — Associating clinical data with transcriptome sequencing data
+* [fusBreakpoint](https://github.com/jennylsmith/fusBreakpoint) — Sequence search in BAM files with Bioconductor
+
+**Analysis**
+
+* [mack_d_2023.04.13_iPSC_neuromuscular_scRNAseq](https://github.com/jennylsmith/mack_d_2023.04.13_iPSC_neuromuscular_scRNAseq) — Time-course scRNA-seq of iPSC-derived motor neurons
+* [kappe_s_2022.04_PF_LiverStage](https://github.com/RSC-RP/kappe_s_2022.04_PF_LiverStage) — Bulk RNA-seq of hepatocytes infected with *Plasmodium falciparum*
+
+**Reproducibility and standards**
+
+* [contributing_guidelines](https://github.com/Meshinchi-Lab/contributing_guidelines) — Lab-wide standards for creating, maintaining, and contributing to analysis software
+* [r_analysis_template](https://github.com/Meshinchi-Lab/r_analysis_template) and [py_analysis_template](https://github.com/Meshinchi-Lab/py_analysis_template) — Quarto project templates for exploratory analysis
+* [renv_bioc_rstudio_docker](https://github.com/Meshinchi-Lab/renv_bioc_rstudio_docker) — RStudio Server with Bioconductor and renv, containerized
+* [nextflow_scri_config](https://github.com/RSC-RP/nextflow_scri_config) — Institutional nf-core profile for Seattle Children's compute
+
 <br>
 
 ---
