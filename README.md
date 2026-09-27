@@ -1,6 +1,6 @@
 
 <p align="center">
-Computational biologist applying methods in data science biomedical and translational research at Ospedale Pediatrico Bambino Gesù.
+Computational biologist applying methods in data science to biomedical and translational research at Ospedale Pediatrico Bambino Gesù.
 </p>
 
 <p align="center">
